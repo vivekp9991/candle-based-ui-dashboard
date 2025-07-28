@@ -1,65 +1,98 @@
 export const mockPortfolioData = {
-  "pnL": 11.10999899999996,
-  "pnLPercent": 2.7331543144157093,
-  "pnLWithDividend": 75.85999899999997,
-  "pnLWithDividendPercent": 18.662205420398514,
-  "totalDividend": 64.75000000000001,
-  "totalDivPercent": 15.929051105982806,
-  "lastDividendYield": 15.258620689655173,
-  "ttmDividendYield": 14.00862068965517,
-  "yieldOnCost": 15.675662339354812,
-  "dividendFrequency": "monthly",
-  "totalShares": 18,
-  "totalInvestment": 406.490001,
-  "totalValueToday": 417.59999999999997,
-  "averageCost": 22.582777833333335,
+  "pnL": 3838.5,
+  "pnLPercent": 10.49,
+  "pnLWithDividend": 3915.2,
+  "pnLWithDividendPercent": 10.7,
+  "totalDividend": 76.7,
+  "totalDivPercent": 0.21,
+  "lastDividendYield": 0.5,
+  "ttmDividendYield": 0,
+  "yieldOnCost": 0.55,
+  "dividendFrequency": "quarterly",
+  "hasDividends": true,
+  "totalShares": 210,
+  "totalInvestment": 36592.8,
+  "totalValueToday": 40431.3,
+  "averageCost": 174.25,
   "yearlyDividends": [
     {
+      "year": 2012,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2013,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2014,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2015,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2016,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2017,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2018,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2019,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2020,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2021,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2022,
+      "totalDividend": 2.84
+    },
+    {
+      "year": 2023,
+      "totalDividend": 2.85
+    },
+    {
       "year": 2024,
-      "totalDividend": 33.25
+      "totalDividend": 2.84
     },
     {
       "year": 2025,
-      "totalDividend": 31.499999999999996
+      "totalDividend": 1.66
     }
   ],
   "dividendHistory": [
     {
       "year": 2024,
-      "frequency": "monthly",
-      "totalAmount": 3.071428571428571,
+      "frequency": "quarterly",
+      "totalAmount": 1.0,
       "payments": [
-        {"period": 1, "amount": 0.26785714285714285, "status": "paid", "label": "Jan"},
-        {"period": 2, "amount": 0.26785714285714285, "status": "paid", "label": "Feb"},
-        {"period": 3, "amount": 0.26785714285714285, "status": "paid", "label": "Mar"},
-        {"period": 4, "amount": 0.26785714285714285, "status": "paid", "label": "Apr"},
-        {"period": 5, "amount": 0.25, "status": "paid", "label": "May"},
-        {"period": 6, "amount": 0.25, "status": "paid", "label": "Jun"},
-        {"period": 7, "amount": 0.25, "status": "paid", "label": "Jul"},
-        {"period": 8, "amount": 0.25, "status": "paid", "label": "Aug"},
-        {"period": 9, "amount": 0.25, "status": "paid", "label": "Sep"},
-        {"period": 10, "amount": 0.25, "status": "paid", "label": "Oct"},
-        {"period": 11, "amount": 0.25, "status": "paid", "label": "Nov"},
-        {"period": 12, "amount": 0.25, "status": "paid", "label": "Dec"}
+        {"period": 1, "amount": 0.24, "status": "paid", "label": "Q1"},
+        {"period": 2, "amount": 0.25, "status": "paid", "label": "Q2"},
+        {"period": 3, "amount": 0.25, "status": "paid", "label": "Q3"},
+        {"period": 4, "amount": 0.25, "status": "paid", "label": "Q4"}
       ]
     },
     {
       "year": 2025,
-      "frequency": "monthly", 
-      "totalAmount": 2.017857142857143,
+      "frequency": "quarterly",
+      "totalAmount": 0.51,
       "payments": [
-        {"period": 1, "amount": 0.295, "status": "paid", "label": "Jan"},
-        {"period": 2, "amount": 0.295, "status": "paid", "label": "Feb"},
-        {"period": 3, "amount": 0.295, "status": "paid", "label": "Mar"},
-        {"period": 4, "amount": 0.275, "status": "paid", "label": "Apr"},
-        {"period": 5, "amount": 0.295, "status": "paid", "label": "May"},
-        {"period": 6, "amount": 0.295, "status": "paid", "label": "Jun"},
-        {"period": 7, "amount": 0.26785714285714285, "status": "upcoming", "label": "Jul"},
-        {"period": 8, "amount": 0, "status": "pending", "label": "Aug"},
-        {"period": 9, "amount": 0, "status": "pending", "label": "Sep"},
-        {"period": 10, "amount": 0, "status": "pending", "label": "Oct"},
-        {"period": 11, "amount": 0, "status": "pending", "label": "Nov"},
-        {"period": 12, "amount": 0, "status": "pending", "label": "Dec"}
+        {"period": 1, "amount": 0.25, "status": "paid", "label": "Q1"},
+        {"period": 2, "amount": 0.26, "status": "upcoming", "label": "Q2"},
+        {"period": 3, "amount": 0, "status": "pending", "label": "Q3"},
+        {"period": 4, "amount": 0, "status": "pending", "label": "Q4"}
       ]
     }
   ]

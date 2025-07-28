@@ -1,4 +1,4 @@
-export const TIMEFRAMES = ['1D', '5D', '1M', '3M', '6M', '1Y', '2Y', '5Y', 'YTD', 'MAX'];
+export const TIMEFRAMES = ['1D', '1W', '1M', '3M', '6M', '1Y', '2Y', '5Y', 'YTD', 'MAX'];
 
 export const DIVIDEND_FREQUENCIES = {
   MONTHLY: 'monthly',

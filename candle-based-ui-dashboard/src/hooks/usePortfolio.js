@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { stockService } from '../services/stockService';
-import { mockPortfolioData } from '../data/mockData';
 
 export const usePortfolio = () => {
   const [portfolioData, setPortfolioData] = useState(null);
@@ -35,9 +34,8 @@ export const usePortfolio = () => {
       console.error('Portfolio analysis failed:', err);
       setError(err.message || 'Failed to analyze portfolio');
       
-      // For development: Use mock data when API fails
-      console.log('Using mock data for development...');
-      setPortfolioData(mockPortfolioData);
+      // For development: Return null so mock data is used
+      setPortfolioData(null);
       
     } finally {
       setLoading(false);
